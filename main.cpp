@@ -2,11 +2,11 @@
 using namespace std;
 
 void printHello(){
-    std::cout << "Hello C++ on Mac!" << std::endl;
+    cout << "Hello C++ on Mac!" << endl;
 }
 
 void sayHello(string name){
-    std::cout << "Hello " << name << " !" << std::endl;
+    cout << "Hello " << name << " !" << endl;
 }
 
 int main() {
@@ -14,7 +14,7 @@ int main() {
 
     string userName;
 
-    std::cout << "Enter your name: \n";
+    cout << "Enter your name: \n";
     cin.ignore();
     getline(cin, userName); 
     
